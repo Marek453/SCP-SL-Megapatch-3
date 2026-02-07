@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!243 &24300000
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Chat
+  m_AudioMixer: {fileID: 24100000, guid: bd06a2cc5014f6c4db74926cd9af4ae9, type: 2}
+  m_GroupID: 84723210a292b9d40b021085feda2e9d
+  m_Children:
+  - {fileID: 24300000, guid: a134f374335858347ae16b8ed3a37c6c, type: 2}
+  - {fileID: 24300000, guid: 1e5231fe519e1b54688782dd94a690d6, type: 2}
+  - {fileID: 24300000, guid: b893bda1d6c9608468dc623af01806b4, type: 2}
+  - {fileID: 24300000, guid: b89b9821cb38cbe4c949f621d8510c15, type: 2}
+  m_Volume: 00000000000000000000000000000000
+  m_Pitch: 00000000000000000000000000000000
+  m_Effects: []
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0

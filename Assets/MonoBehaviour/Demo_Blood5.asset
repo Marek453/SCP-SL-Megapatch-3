@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5ec5c8853742aa4c2dcba64b334ba2, type: 3}
+  m_Name: Demo_Blood5
+  m_EditorClassIdentifier:
+  type: 0
+  instanced: 1
+  forceForward: 0
+  priority: 12
+  transparencyType: 1
+  cutoff: 0.01
+  tiling: {x: 0, y: 0}
+  offset: {x: 0, y: 0}
+  maskMethod: 0
+  masks: 00000000
+  projectionLimit: 80
+  _Cutoff: 93
+  _TilingOffset: 743
+  _MaskBase: 744
+  _MaskLayers: 745
+  albedo:
+    texture: {fileID: 2800000, guid: 1cc838ac5faba134b824c81a7a8098c7, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    _MainTex: 14
+    _Color: 4
+  metallic:
+    texture: {fileID: 0}
+    metallicity: 0
+    glossiness: 0
+    _MetallicGlossMap: 269
+    _Metallic: 268
+    _Glossiness: 226
+  normal:
+    texture: {fileID: 0}
+    strength: 0.93
+    _BumpMap: 95
+    _BumpScale: 235
+  emissive:
+    texture: {fileID: 0}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    intensity: 1
+    _EmissionMap: 249
+    _EmissionColor: 67

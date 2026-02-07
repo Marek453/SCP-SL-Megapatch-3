@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!243 &24300000
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX
+  m_AudioMixer: {fileID: 24100000, guid: bd06a2cc5014f6c4db74926cd9af4ae9, type: 2}
+  m_GroupID: 26d943df3450b344a8c4cbf2018f3370
+  m_Children:
+  - {fileID: 24300000, guid: 09c285bfe9c0c3d419bf935b660f25b1, type: 2}
+  - {fileID: 24300000, guid: 4560ce0a971ea7b419f8352ae41af6a1, type: 2}
+  - {fileID: 24300000, guid: c2243272e4bc73f43b6decfa856a3c0a, type: 2}
+  - {fileID: 24300000, guid: 9bfea983ab861e449abab6c75d675815, type: 2}
+  - {fileID: 24300000, guid: b1ab566295e1bd44f9d961d5443ae16d, type: 2}
+  - {fileID: 24300000, guid: cbcbc0568225591479f90d420392b8f8, type: 2}
+  - {fileID: 24300000, guid: 923c0c0af32c17e4db030d444b7ddf01, type: 2}
+  - {fileID: 24300000, guid: aabfd8c034c00694baedf6c8a84659a5, type: 2}
+  m_Volume: 00000000000000000000000000000000
+  m_Pitch: 00000000000000000000000000000000
+  m_Send: 00000000000000000000000000000000
+  m_Effects: []
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
