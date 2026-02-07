@@ -1,0 +1,54 @@
+#Set to "none" in order to disable password.
+override_password: none
+override_password_role: owner
+
+#Should Secret Lab development staff be able to use the Remote Admin?
+enable_staff_access: false
+
+#Should Secret Lab CEO and managers be able to use Remote Admin? (We do not abuse our powers) 
+enable_manager_access: true
+
+#Allow remote admin access for the banning team, to allow them searching and fighting cheaters globally
+enable_banteam_access: true
+
+#Let's define roles
+#use color "hidden" to disable badge
+#you can add own roles too
+owner_badge: SERVER OWNER
+owner_color: red
+
+admin_badge: ADMIN
+admin_color: red
+
+moderator_badge: MODERATOR
+moderator_color: silver
+
+#And add them to the roles list
+#this list is visible to all your players
+Roles:
+ - owner
+ - admin
+ - moderator
+
+#Let's setup permissions for roles
+Permissions:
+ - KickingAndShortTermBanning: [owner, admin, moderator]
+ - BanningUpToDay: [owner, admin, moderator]
+ - LongTermBanning: [owner, admin]
+ - ForceclassSelf: [owner, admin, moderator]
+ - ForceclassToSpectator: [owner, admin, moderator]
+ - ForceclassWithoutRestrictions: [owner, admin]
+ - GivingItems: [owner, admin]
+ - WarheadEvents: [owner, admin, moderator]
+ - RespawnEvents: [owner, admin]
+ - RoundEvents: [owner, admin, moderator]
+ - SetGroup: [owner]
+ - GameplayData: [owner, admin]
+ - Overwatch: [owner, admin, moderator]
+ - FacilityManagement: [owner, admin, moderator]
+
+#Let's assign roles
+Members:
+ - SomeSteamId64: owner
+ - SomeOtherSteamId64: admin
+ - AnotherSteamId64: admin

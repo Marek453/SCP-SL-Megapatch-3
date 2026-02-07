@@ -1,0 +1,5 @@
+Ты умер
+Нажмите {KEYBINDING_INTERACTION} чтобы положить <color=yellow>Планшет кастомизации</color>.
+Нажмите {KEYBINDING_INTERACTION} чтобы взять <color=yellow>Планшет кастомизации</color>.
+Эта <color=yellow>станция</color> уже подключена другим <color=yellow>Планшетом кастомизации</color>.
+Тебе нужен <color=yellow>Планшет кастомизации оружия</color> чтобы использовать <color=yellow>станцию</color>.

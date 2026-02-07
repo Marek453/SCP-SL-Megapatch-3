@@ -1,0 +1,41 @@
+#Server main settings
+server_name: My Server Name
+serverinfo_pastebin_id: 7wV681fT
+server_ip: auto
+bind_ip: any
+max_players: 20
+port_queue: 7777,7778,7779,7780,7781,7782,7783,7784
+
+#Spawn settings
+minimum_MTF_time_to_spawn: 280
+maximum_MTF_time_to_spawn: 350
+ci_respawn_percent: 35
+ci_on_start_percent: 10
+team_respawn_queue: 40143140314414041340
+
+#Random-stuff settings (-1: random)
+server_forced_class: -1
+map_seed: -1
+
+#Misc gameplay settings
+intercom_cooldown: 120
+intercom_max_speech_time: 20
+auto_round_restart_time: 10
+friendly_fire: false
+warhead_tminus_start_duration: 90
+human_grenade_multiplier: 0.7
+scp_grenade_multiplier: 1
+
+#Security & AntiCheat (default settings are good enough in most cases)
+online_mode: true
+ip_banning: true
+enable_whitelist: false
+
+noclip_protection: false
+#noclip protection is still in alpha, not recommended to enable
+
+forward_ports: true
+enable_query: true
+query_port_shift: 0
+query_use_IPv6: true
+administrator_query_password: none
